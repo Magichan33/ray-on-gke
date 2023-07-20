@@ -15,17 +15,17 @@
 variable "project_id" {
   type        = string
   description = "GCP project id"
-  default     = "ricliu-gke-dev"
+  default     = "amundson-gke-aiml-demo"
 }
 
 variable "namespace" {
   type        = string
   description = "Kubernetes namespace where resources are deployed"
-  default     = "richard"
+  default     = "bernardhan-cluster-namespace-1"
 }
 
 variable "service_account" {
   type        = string
   description = "Google Cloud IAM service account for authenticating with GCP services"
-  default     = "richard-system-account"
+  default     = "bernardhan-cluster-sa"
 }

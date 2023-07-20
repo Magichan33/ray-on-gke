@@ -15,19 +15,19 @@
 variable "project_id" {
   type        = string
   description = "GCP project id"
-  default     = "ricliu-gke-dev"
+  default     = "amundson-gke-aiml-demo"
 }
 
 variable "region" {
   type        = string
   description = "GCP project region or zone"
-  default     = "us-central1"
+  default     = "us-central1-c"
 }
 
 variable "cluster_name" {
   type        = string
   description = "GKE cluster name"
-  default     = "ml-cluster"
+  default     = "bernardhan-cluster"
 }
 
 variable "enable_autopilot" {
